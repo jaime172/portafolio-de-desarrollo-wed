@@ -136,16 +136,17 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 30%;
+    width: 100%;
     font-size: 18px;
     filter: opacity(0.8);
     padding: 10px;
     text-align: center;
     box-shadow: 3px 3px 8px #f5f5f5;
+    color: var(--white-color);
 }
 
 .acerca-image{
-    width:30%;
+    width:100%;
    overflow: hidden;
 }
 
@@ -163,7 +164,7 @@ a{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    width: 30%;
+    width: 100%;
     margin-right: 10px;
     box-shadow: 3px 3px 8px #f5f5f5;
     background-image: url(/assets/image/bg-skill-bar.webp);
@@ -176,6 +177,11 @@ a{
     position: relative;
     width: 100%;
     margin: 10px;
+}
+
+.number h6,
+.text-skillbar{
+   color: var(--white-color);
 }
 
 svg{
