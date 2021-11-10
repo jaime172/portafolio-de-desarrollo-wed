@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+*,
+:afther,
+:before{
+   Box-zising:border-box;
+}
 :root{
     --primary-color:#ff022c;
     --white-color:#ffffff;
