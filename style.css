@@ -137,6 +137,11 @@ a{
     margin: 1rem auto;
 }
 
+.container-acerca{
+   display:flex;
+   flex-direction:column;
+}
+
 .acerca-descripcion{
     background-image: url(/assets/image/bg-skill-bar.webp);
     background-repeat: no-repeat;
@@ -296,6 +301,8 @@ svg circle:nth-child(2){
        text-align: center;
        grid-column: span 2;
    }
+
+
     .services{
        display: grid;
        grid-template-columns: repeat(2 , 45%) ;
