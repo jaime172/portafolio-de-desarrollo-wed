@@ -3,12 +3,14 @@
  html{
     font-family: 'Raleway',san-serif;
     box-sizing: border-box;
+
 }
 
 *,
 *::before,
 *::after{
     box-sizing: inherit;
+    margin: 0;
 }
 
 :root{
@@ -29,6 +31,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x:hidden ;
+    font-size: calc(14px + (18-14)*(100vw-300)/(1400-300));
 }
 
 h2{
@@ -65,17 +68,21 @@ img{
     /* position: absolute;
     top: 0; */
    max-width: var(--width-viewport);
+   height: 100%;
     background: rgb(0, 0,0);
     z-index: 1890;
+    margin-top: 0;
+    margin: 0;
 }
 
 .header-container{
     display: flex;
     max-width:100%;
-    margin:1rem auto  0 auto;
+    padding: 2rem 1rem;
+    margin:0;
     flex-direction:column;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     text-align: center;
 }
 
@@ -83,6 +90,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     z-index: 100;
     width: 100%;
     box-sizing: border-box;
@@ -90,6 +98,8 @@ img{
 
 .menu a{
     margin: 0.8rem;
+    display: block;
+    font-size: calc(14px + (18-14)*(100vw-300)/(1400-300));
 }
 
 a{
@@ -187,6 +197,10 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.text-skillbar{
+    color: #ffffff;
 }
 
 .skill-container{
