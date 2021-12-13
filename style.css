@@ -116,7 +116,7 @@ a{
 /*        home         */
 
 .hero-image{
-    background-image: url(/assets/image/hero-image-pro.jpg);
+    background-image: url(/assets/jaime.jpg);
     max-width:  var(--width-viewport);
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +127,7 @@ a{
 }
 
 .hero-image-bg{
-   position: absolute;background: rgba(0,0,0,0.7);
+   position: absolute;background: rgba(0,0,0,0.5);
    width: 100%;
    height: 100%;
    display: flex;
