@@ -13,6 +13,11 @@
     margin: 0;
 }
 
+*,
+:afther,
+:before{
+   Box-zising:border-box;
+}
 :root{
     --primary-color:#ff022c;
     --white-color:#ffffff;
@@ -155,6 +160,11 @@ a{
     max-width: 1200px;
    margin-left: auto;
    margin-right: auto;
+}
+
+.container-acerca{
+   display:flex;
+   flex-direction:column;
 }
 
 .acerca-descripcion{
@@ -320,6 +330,8 @@ svg circle:nth-child(2){
        text-align: center;
        grid-column: span 2;
    }
+
+
     .services{
        display: grid;
        grid-template-columns: repeat(2 , 45%) ;
