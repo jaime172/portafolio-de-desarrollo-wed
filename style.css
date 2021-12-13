@@ -16,7 +16,7 @@
 *,
 :afther,
 :before{
-   Box-zising:border-box;
+   box-sizing: inherit;
 }
 :root{
     --primary-color:#ff022c;
